@@ -1,5 +1,6 @@
 import type { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {}
+const nextConfig: NextConfig = { env: { MCP_BASE_URL: "https://petstore3.swagger.io/api/v3" } }
 
 export default nextConfig
+
