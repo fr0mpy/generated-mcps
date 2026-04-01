@@ -10,13 +10,11 @@
   "dependencies": {
     "mcp-handler": "^1.1.0",
     "next": "16.2.1",
-    "zod": "^3.25.17"
+    "zod": "^3.25.37"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
     "typescript": "^5.0.0"
-  },
-  "env": {
-    "MCP_BASE_URL": "https://petstore.swagger.io/api/v3"
   }
 }
